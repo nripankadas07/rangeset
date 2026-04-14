@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rangeset"
+version = "0.1.0"
+description = "Manage sets of non-overlapping integer ranges with merge, intersection, and complement."
+authors = [
+    {name = "Nripanka Das", email = "nripankadas@gmail.com"},
+]
+license = {text = "MIT"}
+keywords = ["ranges", "integers", "set-operations", "merge"]
+requires-python = ">=3.10"
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/nripankadas/rangeset"
