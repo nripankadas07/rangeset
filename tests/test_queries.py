@@ -1,7 +1,6 @@
 """Tests for RangeSet query operations."""
 
-import pytest
-from rangeset import RangeSet, RangeSetError
+from rangeset import RangeSet
 
 
 class TestContains:
